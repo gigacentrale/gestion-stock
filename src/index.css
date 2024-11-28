@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+}
+
+.menu {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
